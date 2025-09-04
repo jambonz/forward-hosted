@@ -1,0 +1,19 @@
+{
+  "name": "call-forward-hosted",
+  "version": "0.0.1",
+  "description": "jambonz webhook application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "jslint": "eslint app.js lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jambonz/node-client": "^0.4.8",
+    "debug": "^4.4.1",
+    "express": "^5.1.0",
+    "express-basic-auth": "^1.2.1",
+    "pino": "^9.9.2"
+  }
+}
