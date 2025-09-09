@@ -1,9 +1,10 @@
 {
   "/": {
     "carrier": {
-      "description": "The name of the carrier to use for the oubound call leg",
+      "description": "The carrier (trunk) to use for the oubound call leg",
       "type": "string",
-      "required": true
+      "required": true,
+      "jambonz_resource": "carriers"
     },
     "callerId": {
       "description": "Caller ID to use for the outbound leg, if not set then the CallerID of the incomming call will be used",
