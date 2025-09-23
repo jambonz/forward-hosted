@@ -6,6 +6,10 @@
       "required": true,
       "jambonz_resource": "carriers"
     },
+    "number": {
+      "description": "The number to send the call to, if not set then the number of the incomming call will be used",
+      "type": "string"
+    },
     "callerId": {
       "description": "Caller ID to use for the outbound leg, if not set then the CallerID of the incomming call will be used",
       "type": "string"
